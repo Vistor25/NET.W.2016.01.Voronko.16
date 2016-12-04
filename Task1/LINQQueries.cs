@@ -44,6 +44,7 @@ namespace ClassLibrary1
                 recipe.Weight = weights[i];
                 shawarma.ShawarmaRecipe.Add(recipe);
             }
+
             shawarma.SaveChanges();
         }
     }
